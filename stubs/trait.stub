@@ -1,0 +1,20 @@
+<?php
+
+namespace {{namespace}};
+
+trait {{name}}Operation
+{
+    public function queryOperation() {}
+
+    public function listOperation() {}
+
+    public function filterOperation() {}
+
+    public function createOperation() {}
+
+    public function showOperation() {}
+
+    public function clauseOperation() {}
+
+    public function actionOperation() {}
+}

@@ -1,0 +1,38 @@
+.adri{
+	font-size: 1em;
+}
+
+
+/*@media screen and (max-width:411px) {
+   .example2 {
+      width: 100%;
+      font-size: 12em;
+  }
+}
+
+@media (min-width: 576px) { 
+.example2 {
+      width: 100%;
+      font-size: 1px;
+  }
+}*/
+
+
+@media screen and (min-width: 320px) {
+    #example2 {
+        font-size: 12px;
+    }
+    .dua{
+    	margin-left: 25px;
+    }
+    .table-data{
+    	margin-left: 15px;
+    }
+    .table-data1{
+    	margin-left: 11px;
+    }
+    .logo-lg{
+        display: none;
+    }
+}
+

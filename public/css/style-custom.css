@@ -1,0 +1,60 @@
+@media screen and (max-width: 3000px) {
+    div.judulsmip {
+        font-size: 23px;
+        color: white;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.judulsmip {
+        font-size: 22px;
+        color: white;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    div.judulsmip {
+        font-size: 15px;
+        color: white;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    div.judulsmip {
+        font-size: 12px;
+        color: white;
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    div.judulsmip {
+        font-size: 10px;
+        color: white;
+        margin-top: 15px;
+    }
+}
+
+.alert-danger {
+    background: rgba(234, 84, 85, 0.8) !important;
+    color: #ffff !important;
+}
+
+.alert-success {
+    background: rgba(40, 199, 111, 0.8) !important;
+    color: #ffff !important;
+}
+
+.alert-warning {
+    background: rgba(255, 159, 67, 0.8) !important;
+    color: #ffff !important;
+}
+
+.badge.badge-sm {
+	font-size: .8em !important;
+}
