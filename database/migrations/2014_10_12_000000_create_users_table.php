@@ -20,7 +20,15 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
+            $table->timestamp('password_changed_at')->nullable();
+            $table->tinyInteger('is_active')->default(0);
+            $table->string('email_forgot_password')->nullable();
+            $table->text('two_factor_secret')->nullable();
+            $table->text('two_factor_recovery_codes')->nullable();
+            $table->text('two_factor_confirmed_at')->nullable();
+            $table->text('profile_photo_path')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
