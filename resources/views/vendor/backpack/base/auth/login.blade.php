@@ -14,7 +14,7 @@
     }
 
     .content-wrapper{
-        background: linear-gradient(118deg,  #c8d7e3,#77aad4)!important;
+        background: linear-gradient(118deg,  #495464,#495464)!important;
     }
 
     .main-footer{
@@ -40,14 +40,13 @@ justify-content: center;">
                 <div class="col-lg-12 p-t-0">
                     <div class="card rounded-0 mb-0">
                         <div class="card-header pb-1">
-                            <div class="card-title">
+                            <div class="card-title p-t-10">
                                 <center>
-                                    <img width="300px" src="{{ asset('logo.png') }}" / style="object-fit: contain;width: 180px;height: 100px"/>
+                                    <h3>AdminPack</h3>
                                 </center>
                             </div>
                         </div>
-                        <p class="px-2" style="text-align: center;">Welcome back, please login to your account.</p>
-                        <div class="card-content">
+                        <div class="card-content p-t-10">
                             <div class="card-body">
                                 <form class="col-md-12 p-t-10" role="form" method="POST" action="{{ route('backpack.auth.login') }}">
                                     {!! csrf_field() !!}
@@ -83,7 +82,7 @@ justify-content: center;">
                                     </div>
                                     <div class="row" style="margin-bottom: 20px;">
                                         <div class="col-xs-12 p-t-20" style="padding-left: 0px; padding-right: 0px">
-                                            <button type="submit" class="btn btn-block btn-primary">
+                                            <button type="submit" class="btn btn-block btn-dark">
                                                 {{ trans('backpack::base.login') }}
                                             </div>
                                         </div>
